@@ -1,3 +1,5 @@
+## Python script developed by the Evolutionary and Environmental Genomics Group
+## at the University of Hull ( http://www.evohull.org/ )
 
 ## THe script searches for barcodes in forward and reverse reads
 ## that are not at the start of the read, but instead it looks for the bcs
