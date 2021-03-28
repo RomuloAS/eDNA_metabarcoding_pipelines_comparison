@@ -100,7 +100,7 @@ def getArguments():
     parser.add_argument("-t", "--threshold", nargs="?", const=1, default=1,
                     choices=THRESHOLDS, type = float,
                     help="Specify the minimum threshold"\
-                    " to the taxonomy rank be kept, default: 1 (100%)")
+                    " to the taxonomy rank be kept, default: 1")
     parser.add_argument("-o", "--only_joining", nargs="?", const="",
                         default="", type = str,
                     help="Inform folder - Only the final joining of"\
