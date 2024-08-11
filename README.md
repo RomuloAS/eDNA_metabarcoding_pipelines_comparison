@@ -36,3 +36,5 @@
             classifier train -o Classifier -s reference\_database.fasta -t reference\_database\ _taxid.txt
         ```
       * Then, execute the /Codes/SEQme_workflow.py file that can be found inside the /Codes folder.
+
+6. Execute the /Codes/Filter_Samples_by_Threshold.R file, which can be found inside the /Codes folder, to remove false positive species assignment where the number of reads assigned fell below 0.1 % considering the sample total of reads.
