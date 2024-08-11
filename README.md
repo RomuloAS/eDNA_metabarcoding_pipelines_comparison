@@ -9,7 +9,7 @@
    ```python
        python Codes/genbank2Fasta.py Reference_Database/reference_database.gb --pipeline anacapa --rank superkingdom
    ``` 
-5. Execute each one of the pipelines:
+4. Execute each one of the pipelines:
     - [Anacapa](https://github.com/limey-bean/Anacapa)
       * Follow the official documentation to install any required package.
       * Use the configuration files that can found inside the /Config_Files folder
@@ -37,4 +37,6 @@
         ```
       * Then, execute the /Codes/SEQme_workflow.py file that can be found inside the /Codes folder.
 
-6. Execute the /Codes/Filter_Samples_by_Threshold.R file, which can be found inside the /Codes folder, to remove false positive species assignment where the number of reads assigned fell below 0.1 % considering the sample total of reads.
+5. Execute the /Codes/Filter_Samples_by_Threshold.R file, which can be found inside the /Codes folder, to remove false positive species assignment where the number of reads assigned fell below 0.1 % considering the sample total of reads.
+
+6. Execute the /Codes/Rarefy.R file to rarefy the filtered data to standardize the sequencing depth across samples, ensuring that comparisons of biodiversity are fair and unbiased.
