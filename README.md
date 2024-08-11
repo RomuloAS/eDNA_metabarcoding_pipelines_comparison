@@ -39,4 +39,6 @@
 
 5. Execute the /Codes/Filter_Samples_by_Threshold.R file, which can be found inside the /Codes folder, to remove false positive species assignment where the number of reads assigned fell below 0.1 % considering the sample total of reads.
 
-6. Execute the /Codes/Rarefy.R file to rarefy the filtered data to standardize the sequencing depth across samples, ensuring that comparisons of biodiversity are fair and unbiased.
+6. Execute /Codes/Create_Tables.R code to generate all csv tables, including both ranacapa required files.  
+
+7. Execute the /Codes/Rarefy.R file to rarefy the filtered data to standardize the sequencing depth across samples, ensuring that comparisons of biodiversity are fair and unbiased.
