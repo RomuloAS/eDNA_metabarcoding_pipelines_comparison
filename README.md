@@ -42,3 +42,5 @@
 6. Execute /Codes/Create_Tables.R code to generate all csv tables, including both ranacapa required files.  
 
 7. Execute the /Codes/Rarefy.R file to rarefy the filtered data to standardize the sequencing depth across samples, ensuring that comparisons of biodiversity are fair and unbiased.
+
+8. Execute the /Codes/Statistical_Analyses.R file to do the statistical analyses (alpha, beta diversities and mantel).
